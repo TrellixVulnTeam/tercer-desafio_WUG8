@@ -5,4 +5,41 @@ section {
 
 article {
     border: black double;
+    font-size: 20px;
+}
+
+.automaquillaje {
+    text-align: center;
+    font-size: 20px;
+}
+
+.presentacion {
+    @extend .automaquillaje;
+    font-family: cursive;
+    
+}
+
+.retrato {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contacto {
+    @extend .presentacion;
+    text-align: left;
+    font-size: 20px;
+}
+
+.fotosmaquillajesocial {
+    text-align: center;
+
+}
+
+.subtitle {
+    margin: 10px;
+}
+
+.insta {
+    @extend .retrato;
+    margin-top: 20px;
 }
